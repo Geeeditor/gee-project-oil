@@ -71,7 +71,7 @@
 
 
 #accordion-content {
-  list-style: none;
+  list-style: circle inside;
   margin-top: 10px;
   transition: 12s ease-in-out;
   /* line-height: 17px; */

@@ -1379,6 +1379,16 @@ i {
     padding: 0;
   }
 
+  .card__title{
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  .card__description{
+    /* font-size: 11px !important; */
+    font-weight: 500;
+  }
+
   .pageurl {
     margin: 0 !important;
     padding: 0 !important;
@@ -1487,7 +1497,9 @@ i {
     font-size: 13.5px;
   }
 
-  .card__description {
-    font-size: 10.5px;
+  .card__description{
+    font-size: 11px !important;
+    font-weight: 500;
   }
+
 }
