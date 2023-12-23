@@ -92,6 +92,7 @@ body {
   font-weight: var(--bs-body-font-weight);
   /* overflow-x: hidden; */
   font-size: var(--bs-body-font-size);
+  scroll-behavior: smooth;
 }
 
 /*Nav*/
@@ -128,13 +129,11 @@ header {
   width: 100%;
   min-height: 60vh;
   object-fit: contain;
-  background-size: cover  ;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 20px;
   /* position: relative; */
 }
-
-
 
 .hero-header-text {
   width: 90%;
@@ -310,7 +309,6 @@ header {
   }
 }
 
-
 .second-section-main {
   display: flex;
   align-items: center;
@@ -318,8 +316,24 @@ header {
   margin-bottom: 1.25rem;
 }
 
+.lable > a {
+    color: inherit;
+}
+
 .second-section-text {
-  width: 450px;
+  width: fit-content;
+  margin-right: 15px;
+  margin-left: 0;
+}
+
+.cssbuttons-io-button> a {
+  text-decoration: none;
+  color: white !important;
+}
+
+.margin-left {
+  margin-left: 15px;
+  margin-right: 0;
 }
 
 .second-section-text > h4 {
@@ -444,7 +458,6 @@ hr {
 
 /* first barnner section */
 
-
 .first-section img {
   border: solid 0.0625rem;
   width: 100%;
@@ -548,8 +561,6 @@ a {
   margin-top: 6.25rem;
 }
 
-
-
 .counter-row {
   display: flex;
   gap: 15px;
@@ -586,13 +597,11 @@ a {
 footer {
   background-color: var(--bs-body-color);
   overflow-x: hidden;
-  
 }
 
-
- .footer-main-content{
+.footer-main-content {
   display: flex;
-  align-items: flex-start; 
+  align-items: flex-start;
   justify-content: space-between;
   /* padding: 20px 15px; */
   margin: 0 10px;
@@ -612,8 +621,6 @@ footer section .link-div {
 .last-footer-div {
   padding-left: 10px;
 }
-
-
 
 footer section .link-div ul li {
   list-style-type: none;
@@ -734,162 +741,6 @@ footer section .link-div h1 {
 }
 
 /* footer section */
-
-/* about page section  */
-
-.first-about-section h1 {
-  font-size: 45px;
-  text-align: center;
-}
-
-.first-about-section blockquote {
-  font-size: 25px;
-  text-align: center;
-}
-
-.the-1899-1911-div {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 32px;
-  margin-bottom: 10px;
-}
-
-.section-1899 {
-  width: 500px;
-}
-
-.section-1899 h1 {
-  font-size: 35px;
-  text-align: center;
-}
-
-.section-1899 blockquote {
-  font-size: 25px;
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.section-1911 {
-  width: 500px;
-}
-
-.section-1911 h1 {
-  font-size: 35px;
-  text-align: center;
-}
-
-.section-1911 blockquote {
-  font-size: 30px;
-  text-align: center;
-  text-transform: capitalize;
-}
-
-/* key indicator section */
-
-.key-indicator {
-  margin: 50px 0 25px 0;
-}
-
-.key-indicator-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin: 32px 0 10px 0;
-}
-
-.key-indicator .key-h1 {
-  font-size: 45px;
-  text-align: center;
-}
-
-.key-indicator-section div {
-  text-align: center;
-  width: 180px;
-}
-
-.key-indicator-section h5 {
-  font-size: 45px;
-}
-.key-indicator-section p {
-  font-size: 20px;
-}
-
-/* our value and strategy section */
-
-.strategy {
-  margin: 40px 0 20px 0;
-}
-
-.strategy-div {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 62px;
-}
-
-.strategy-div div {
-  border-right: solid 1px;
-  /* width: 500px; */
-  height: 300px;
-  padding: 20px;
-}
-
-.strategy-div div:last-of-type {
-  border: none;
-}
-
-.strategy-div div h4 {
-  font-size: 40px;
-}
-
-.strategy-div div p {
-  font-size: 20px;
-  margin-top: 30px;
-  letter-spacing: 1px;
-}
-
-/* employee count */
-
-.staff {
-  margin: 50px 0 30px 0;
-}
-
-.staff-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.staff-section main {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-left: 30px;
-}
-
-.staff-section main div {
-  margin: 20px 0 0 20px;
-  border-left: dashed 2px;
-  padding: 10px;
-}
-
-.staff-section main div h4 {
-  font-size: 50px;
-}
-
-.staff-section main div p {
-  font-size: 30px;
-}
-
-.staff-section .total-staff h4 {
-  font-size: 40px;
-}
-
-.staff-section .total-staff i {
-  font-size: 30px;
-  margin-left: 60px;
-  font-weight: bold;
-}
 
 .counter-container {
   overflow: hidden;
@@ -1111,7 +962,6 @@ i {
   font-weight: 500;
   font-size: 70%;
   height: auto;
- 
 }
 
 /* .swiper-slide > h2::after{
@@ -1157,7 +1007,6 @@ i {
   margin-top: 10px;
   width: 10%;
   border-radius: 20px;
-
 }
 
 .fact-5::after {
@@ -1176,7 +1025,6 @@ i {
   margin-top: 10px;
   width: 10%;
   border-radius: 20px;
-
 }
 
 .fact-7::after {
@@ -1384,28 +1232,25 @@ i {
   }
 
   .under-img-text {
-  display: flex;
-  align-items: center;
-  /* margin: 0 3.75rem; */
-  /* padding: 0 10px; */
-  padding-top: 1rem;
-  /* padding-bottom: 0.5rem; */
-  justify-content: center;
-  flex-wrap: wrap;
-  row-gap: 20px ;
-}
+    display: flex;
+    align-items: center;
+    /* margin: 0 3.75rem; */
+    /* padding: 0 10px; */
+    padding-top: 1rem;
+    /* padding-bottom: 0.5rem; */
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
 
-.second-under-imgText{
-  padding-left: 13px;
-}
+  .second-under-imgText {
+    padding-left: 13px;
+  }
 
-.counter-row{
-  justify-content: space-evenly !important;
-  margin: 0 20px;
-}
-
-
-
+  .counter-row {
+    justify-content: center !important;
+    margin: 0 20px;
+  }
 }
 /*Responsiveness*/
 @media screen and (max-width: 1150px) {
@@ -1534,8 +1379,7 @@ i {
     padding: 0;
   }
 
-
-  .pageurl{
+  .pageurl {
     margin: 0 !important;
     padding: 0 !important;
   }
@@ -1550,7 +1394,8 @@ i {
     font-weight: 500;
   }
 
-  .link-text, .link-text > ul > a{
+  .link-text,
+  .link-text > ul > a {
     font-size: 25% !important;
   }
 
@@ -1566,8 +1411,6 @@ i {
 }
 
 @media screen and (max-width: 500px) {
-
-
   .search {
     display: none;
   }
@@ -1611,7 +1454,6 @@ i {
     display: flex;
     flex-direction: column;
     gap: 10px;
-
   }
 
   .second-section-text > h4,
@@ -1641,17 +1483,11 @@ i {
     padding-left: 10px;
   }
 
- .card__title{
-  font-size: 13.5px;
- }
-
-  .card__description{
-    font-size: 10.5px;
+  .card__title {
+    font-size: 13.5px;
   }
 
-
-  
-
-
-  
+  .card__description {
+    font-size: 10.5px;
+  }
 }
