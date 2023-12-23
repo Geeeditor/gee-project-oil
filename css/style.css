@@ -438,9 +438,6 @@ hr {
 
 /* first barnner section */
 
-.first-section {
-  /* margin-top: 1.5rem; */
-}
 
 .first-section img {
   border: solid 0.0625rem;
@@ -545,10 +542,7 @@ a {
   margin-top: 6.25rem;
 }
 
-.counter-container {
-  /* width: 85%; */
-  /* margin: 10px 10px; */
-}
+
 
 .counter-row {
   display: flex;
@@ -1151,7 +1145,7 @@ i {
   margin-top: 10px;
   width: 10%;
   border-radius: 20px;
-  background-color: ;
+
 }
 
 .fact-5::after {
@@ -1170,7 +1164,7 @@ i {
   margin-top: 10px;
   width: 10%;
   border-radius: 20px;
-  background-color: ;
+
 }
 
 .fact-7::after {
@@ -1288,28 +1282,28 @@ i {
 
 .card-1 {
   background-image: url(../asset/service_01.jpg);
-  object-fit: ;
+  /* object-fit: ; */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .card-2 {
   background-image: url(../asset/service_02.jpg);
-  object-fit: ;
+  /* object-fit: ; */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .card-3 {
   background-image: url(../asset/service_03.jpg);
-  object-fit: ;
+  /* object-fit: ; */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .card-4 {
   background-image: url(../asset/service_04.jpg);
-  object-fit: ;
+  /* object-fit: ; */
   background-repeat: no-repeat;
   background-size: cover;
 }
