@@ -124,14 +124,17 @@ header {
 
 /* Hero Section */
 .hero-section {
-  background-image: url(../asset/heroone.jpg);
+  background: url(../asset/1680546770152.gif);
   width: 100%;
   min-height: 60vh;
   object-fit: contain;
-  background-position: cover;
+  background-size: cover  ;
   background-repeat: no-repeat;
   padding-bottom: 20px;
+  /* position: relative; */
 }
+
+
 
 .hero-header-text {
   width: 90%;
@@ -307,6 +310,7 @@ header {
   }
 }
 
+
 .second-section-main {
   display: flex;
   align-items: center;
@@ -330,6 +334,8 @@ header {
 
 .second-section-text > h5 {
   margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 .second-section-text > p {
@@ -1083,7 +1089,7 @@ i {
   justify-content: center;
   font-size: 22px;
   /* font-weight: bold; */
-  color: #1d1b1b;
+  color: #030303;
   background-color: rgb(255, 255, 255);
   padding-top: 20px;
   /* position: relative; */
@@ -1096,14 +1102,16 @@ i {
 
 .swiper-slide > p {
   font-weight: 300;
-  /* margin-bottom: 10px; */
+  margin-bottom: 10px;
+  font-size: 80%;
+  color: #000;
 }
 
-.swiper-slide > p > span {
+.swiper-slide > span {
   font-weight: 500;
-  margin-top: 20px;
-  font-size: 18px;
+  font-size: 70%;
   height: auto;
+ 
 }
 
 /* .swiper-slide > h2::after{
@@ -1391,6 +1399,11 @@ i {
   padding-left: 13px;
 }
 
+.counter-row{
+  justify-content: space-evenly !important;
+  margin: 0 20px;
+}
+
 
 
 }
@@ -1586,20 +1599,24 @@ i {
 
   .second-section-main {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* text-align: center; */
     /* min-width: 400px*/
   }
 
   .second-section-text {
     max-width: 100%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
   }
 
   .second-section-text > h4,
   .button {
-    margin: auto;
+    /* margin: auto; */
     margin-bottom: 10px;
   }
 
