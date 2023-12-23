@@ -1,0 +1,80 @@
+.about-content {
+  overflow-x: hidden;
+}
+
+.about-hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../asset/heroone.jpg);
+  width: 100%;
+  min-height: 20vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+  flex-direction: row;
+}
+
+.about-hero-section > div {
+  color: white;
+  font-size: 150%;
+  font-weight: 500;
+  position: relative;
+}
+
+.about-hero-section > div::after {
+  display: block;
+  position: absolute;
+  content: "";
+  border-bottom: solid white 1px;
+  width: 50%;
+  padding-top: 10px;
+}
+
+.second-section > p {
+  margin-bottom: 20px;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  padding: 15px 0px;
+}
+
+.about-third-section {
+  margin: 0 20px;
+}
+
+.third-section-content {
+  margin-bottom: 15px;
+}
+
+.third-section-content > h3 {
+  border-top: black solid 1px;
+  font-weight: 500;
+  font-size: 130%;
+  border-bottom: black solid 1px;
+  padding: 10px 0px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  transition: 12s ease-in-out;
+  
+}
+
+.third-section-content > h3 > span {
+    font-size: 170%;
+    cursor: pointer;
+}
+
+.third-section-content > h3 > span:hover{
+   transition: 1s ease-out;
+    transform: scale(1.1);
+}
+
+
+#accordion-content {
+  list-style: none;
+  margin-top: 10px;
+  transition: 12s ease-in-out;
+  /* line-height: 17px; */
+  display: none;
+  font-weight: 300;
+}

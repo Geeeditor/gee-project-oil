@@ -2,10 +2,17 @@ const baropen = document.getElementById("bar-open");
 const barclose = document.getElementById("bar-close");
 const navContainer = document.getElementById("navlinks");
 const navlinks = document.getElementById("navlinks");
+const carouselContainer = document.getElementById("carousel");
+const thumbnailContainer = document.getElementById("thumbnail-container");
+const box = document.getElementById("box");
+const overlay = document.createElement("div");
+
+
 
 if ((baropen.style.display = "block")) {
   barclose.style.display = "none";
 }
+
 
 baropen.addEventListener("click", () => {
   navlinks.style.display = "block";
@@ -25,6 +32,8 @@ barclose.addEventListener("click", () => {
   }, 1000);
 });
 
+
+
 // Sample image filenames
 const imageFilenames = [
   "person1.jpeg",
@@ -38,8 +47,7 @@ const imageFilenames = [
   // Add more image filenames up to a maximum of 10
 ];
 
-const carouselContainer = document.getElementById("carousel");
-const thumbnailContainer = document.getElementById("thumbnail-container");
+
 
 // Populate carousel with images and thumbnails
 imageFilenames.forEach((filename, index) => {
@@ -63,9 +71,6 @@ imageFilenames.forEach((filename, index) => {
   thumbnailContainer.appendChild(thumbnail);
 });
 
-
-const box = document.getElementById("box");
-const overlay = document.createElement("div");
 overlay.id = "overlay";
 box.appendChild(overlay);
 
@@ -94,3 +99,5 @@ function animateOverlay() {
 }
 
 animateOverlay();
+
+
