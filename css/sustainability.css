@@ -1,44 +1,101 @@
-.first-section section div h1{
-    text-transform: capitalize;
-    text-align: center;
+.sustainability-hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../asset/heroone.jpg);
+  /* width: 100%; */
+  min-height: 20vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+  flex-direction: row;
+}
+
+.sustainability-hero-section > div {
+  color: white;
+  font-size: 150%;
+  font-weight: 500;
+  position: relative;
+}
+
+.sustainability-hero-section > div::after {
+  display: block;
+  position: absolute;
+  content: "";
+  border-bottom: solid white 1px;
+  width: 50%;
+  padding-top: 10px;
+}
+
+.first-section section div h4{
+    text-transform: uppercase;
+    text-align: left;
     margin-top: 30px;
-    font-size: 50px;
+    font-size: 150%;
+  padding: 0 20px;
+
+}
+
+.first-section section div h4::after {
+  content: "";
+  display: block;
+  border-bottom: solid 2px rgb(0, 55, 255);
+  margin-top: 10px;
+  width: 30%;
+  border-radius: 20px;
 }
 
 .first-section section div blockquote {
     text-transform: capitalize;
-    text-align: center;
+    text-align: left;
     font-weight: 300;
     margin-top: 20px;
-    font-size: 28px;
+    font-size: 1.2rem;
+    margin: 20px;
+    line-height: 30px;
 }
 
 /* second section */
 
+.swiper-section-item{
+    margin: 20px;
+    
+}
+
 .sustain-second-section 
 {
     margin: 20px auto;
-    width: 90%;
+    width: 100%;
 }
 
 .sustain-second-section section .colored-div 
 {
     border-radius: 20px 0 20px 0;
     border: solid 1px;
-    margin: 20px auto;
     padding: 20px;
+    background-color: rgb(40, 39, 39);
+    color: aliceblue;
+    margin-bottom: 1.875rem;
+    height: fit-content;
+}
+
+.icon-div > .fas{
+    color: yellow;
+    font-size: 80%;
 }
 
 .sustain-second-section section .colored-div h1 
 {
-    font-size: 30px;
+    font-size: 1.5rem;
     margin: 2px 0 0 7px;
+    font-weight: 400;
 }
 
 .sustain-second-section section .colored-div blockquote 
 {
     margin-top: 10px;
-    font-size: 22px;
+    font-size: 1rem;
+    font-weight: 200;
+    font-style: italic;
 }
 
 .sustain-second-section section .colored-div .icon-div
@@ -52,24 +109,33 @@
     font-size: 60px;
 }
 
+.icon-div > h1 {
+    font-weight: 500;
+}
+
 .list-divs
 {
-    margin: 0 0 0 40px;
+    margin: 0 0 0 35px;
+    height: fit-content;
 }
 
 .list-divs ul li
 {
     text-transform: capitalize;
     list-style-type:none;
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 1.1rem;
     margin-top: 5px;
+    margin-bottom: 20px;
 }
 
-.list-divs ul li::before 
-{
-    content: "=>";
+.list-divs > span {
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: right;
 }
+
+
 
 /* last section */
 
@@ -97,56 +163,4 @@
     font-size: 23px;
 }
  
-/* tablet responsivenes */
-@media screen and (max-width: 1150px) 
-{
-    .first-section section div h1
-    {
-        font-size: 40px;
-    }
 
-    .first-section section div blockquote 
-    {
-        font-size: 20px;
-        width: 90%;
-        margin: 20px auto;
-    }
-
-    .last-div section div h1 
-    {
-        font-size: 45px;
-    }
-}
-
-/* mobile responsive */
-
-@media screen and (max-width: 500px)  
-{
-    .first-section section div h1
-    {
-        font-size: 22px;
-    }
-
-    .first-section section div blockquote 
-    {
-        font-size: 15px;
-        letter-spacing: 1px;
-    }
-
-    .sustain-second-section section .colored-div blockquote 
-    {
-        font-size: 15px;
-        letter-spacing: 1px;
-    }
-
-    .last-div section div h1 
-    {
-        font-size: 23px;
-    }
-
-    .last-div section div blockquote 
-    {
-        font-size: 15px;
-        letter-spacing: 1px;
-    }
-}

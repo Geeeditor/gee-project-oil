@@ -1,9 +1,42 @@
+.hseq-hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../asset/heroone.jpg);
+  /* width: 100%; */
+  min-height: 20vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+  flex-direction: row;
+}
+
+.hseq-hero-section > div {
+  color: white;
+  font-size: 150%;
+  font-weight: 500;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.hseq-hero-section > div::after {
+  display: block;
+  position: absolute;
+  content: "";
+  border-bottom: solid white 1px;
+  width: 50%;
+  padding-top: 10px;
+}
+
+
+
 .first-page section 
 {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-between;
+    overflow-x: hidden;
 }
+
 
 
 /* i gave them each coresponding amount of width */
@@ -24,20 +57,23 @@
 .first-page section .hseq-link-div a 
 {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 1.175rem;
     color: black;
     margin: 8px 0 0 0 ;
     height: 100px;
+    display: flex;
+    align-items: center;
 }
 
 .first-page section .hseq-link-div a:hover 
 {
-    color: aquamarine;
+    color: rgb(97, 11, 11);
 }
 
 .first-page section .hseq-text-div
 {
-    width: 70%;
+    width: 100%;
+   
 }
 
 .first-page section .hseq-text-div h1
@@ -80,7 +116,7 @@
     background-color: #fbf4f4;
     border: solid 1px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.3625rem;
     color: black;
     margin: 15px 0 15px 0 ;
     height: 60px;
@@ -112,7 +148,7 @@
         background-color: #fbf4f4;
         border: solid 1px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 1.3rem;
         color: black;
         margin: 15px 0 15px 0 ;
         height: 60px;
@@ -128,7 +164,8 @@
 
     .first-page section .hseq-text-div blockquote 
     {
-        font-size: 15px;
-        text-align: center;
+        font-size: 1.2rem;
+        text-align: left;
+        font-weight: 400;
     }
 }

@@ -1,6 +1,10 @@
 var swiper = new Swiper(".mySwiper", {
   grabCursor: true,
   effect: "creative",
+  autoplay: {
+    delay: 5500,
+    disableOnInteraction: false,
+  },
   creativeEffect: {
     prev: {
       shadow: true,
@@ -14,6 +18,10 @@ var swiper = new Swiper(".mySwiper", {
 var swiper2 = new Swiper(".mySwiper2", {
   grabCursor: true,
   effect: "creative",
+  autoplay: {
+    delay: 5500,
+    disableOnInteraction: false,
+  },
   creativeEffect: {
     prev: {
       shadow: true,
@@ -28,6 +36,10 @@ var swiper2 = new Swiper(".mySwiper2", {
 var swiper3 = new Swiper(".mySwiper3", {
   grabCursor: true,
   effect: "creative",
+  autoplay: {
+    delay: 5500,
+    disableOnInteraction: false,
+  },
   creativeEffect: {
     prev: {
       shadow: true,
@@ -41,6 +53,10 @@ var swiper3 = new Swiper(".mySwiper3", {
 var swiper4 = new Swiper(".mySwiper4", {
   grabCursor: true,
   effect: "creative",
+  autoplay: {
+    delay: 5500,
+    disableOnInteraction: false,
+  },
   creativeEffect: {
     prev: {
       shadow: true,
@@ -56,6 +72,10 @@ var swiper4 = new Swiper(".mySwiper4", {
 });
 var swiper5 = new Swiper(".mySwiper5", {
   grabCursor: true,
+  autoplay: {
+    delay: 5500,
+    disableOnInteraction: false,
+  },
   effect: "creative",
   creativeEffect: {
     prev: {
@@ -73,6 +93,10 @@ var swiper5 = new Swiper(".mySwiper5", {
 var swiper6 = new Swiper(".mySwiper6", {
   grabCursor: true,
   effect: "creative",
+  autoplay: {
+    delay: 5500,
+    disableOnInteraction: false,
+  },
   creativeEffect: {
     prev: {
       shadow: true,
@@ -91,6 +115,10 @@ var swiper6 = new Swiper(".mySwiper6", {
 
 var swiper = new Swiper(".mySwiper", {
   loop: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
   spaceBetween: 10,
   slidesPerView: 4,
   freeMode: true,
