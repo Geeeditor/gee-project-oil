@@ -40,25 +40,51 @@
         <div id="navlinks">
           <div class="navlinks-item">
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li>
-                <a href="sustainability.html"
-                  >Sustainabilty <i class="fa-solid fa-chevron-down"></i
-                ></a>
+              <li class="dropdown-effect"><a href="index.html">Home</a></li>
+              <li class="dropdown-effect"><a href="about.html">About</a></li>
+              <li class="dropdown dropdown-effect" id="dropDownToggle1">
+                Sustainabilty
+                <img
+                  src="./asset/chevron-down-solid.svg"
+                  id="dropdown"
+                  alt="icon"
+                />
+                <ul class="dropdown-item1">
+                  <li><a href="sustainability.html">Sustainabilty </a></li>
+                  <li><a href="hseq.html">HSEQ Programs </a></li>
+                </ul>
               </li>
-              <li>
-                <a href="#"
-                  >Production <i class="fa-solid fa-chevron-down"></i
-                ></a>
+              <li class="dropdown dropdown-effect" id="dropDownToggle2">
+                Production
+                <img
+                  src="./asset/chevron-down-solid.svg"
+                  id="dropdown"
+                  alt="icon"
+                />
+                <ul class="dropdown-item2">
+                  <li><a href="#">Production</a></li>
+                  <li><a href="#">Oil Production</a></li>
+                  <li><a href="#">Oil Refining</a></li>
+                  <li><a href="#">Exploration</a></li>
+                </ul>
               </li>
-              <li>
-                <a href="#"
-                  >Investors <i class="fa-solid fa-chevron-down"></i
-                ></a>
+              <li class="dropdown dropdown-effect" id="dropDownToggle3">
+                Investors
+                <img
+                  src="./asset/chevron-down-solid.svg"
+                  id="dropdown"
+                  alt="icon"
+                />
+                <ul class="dropdown-item3">
+                  <li><a href="#">Investors</a></li>
+                  <li><a href="#">Management</a></li>
+                  <li><a href="#">Reporting</a></li>
+                </ul>
               </li>
-              <li><a href="#">News</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li class="dropdown-effect"><a href="#">News</a></li>
+              <li class="dropdown-effect">
+                <a href="contact.html">Contact Us</a>
+              </li>
             </ul>
           </div>
 
@@ -98,7 +124,9 @@
         </div>
 
         <div class="search-container">
-          <i class="fa-solid fa-magnifying-glass" id="search"></i>
+          <i class="fa-solid fa-magnifying-glass" id="search-open"></i>
+          <img src="./asset/search-minus-solid.svg" id="search-close" />
+
           <input
             class="search"
             type="text"
@@ -113,6 +141,18 @@
         </div>
       </div>
     </header>
+
+    <div class="search-mobile">
+      <div class="search-container">
+        <input
+          class="search-input"
+          type="text"
+          name="search"
+          placeholder="Enter a Text"
+        />
+        <button class="btn">Search</button>
+      </div>
+    </div>
 
     <main class="about-content">
       <section class="about-hero-section">
@@ -328,6 +368,8 @@ The Kurasha Petroleum also participates in the capital of the financial (banking
     <script src="./js/jquery-ui.min.js"></script>
     <script src="./js/waypoints.min.js"></script>
     <script src="./js/jquery.counterup.min.js"></script>
+    <script src="./js/searchMobileToggle.js"></script>
+    <script src="./js/dropdown.js"></script>
 
     <script type="text/javascript">
       $(".owl-carousel").owlCarousel({

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/contact.css" />
     <link
@@ -14,483 +14,354 @@
     />
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>ALPINE OIL KAZAKHSTAN</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <header>
-        <img class="logo" src="asset/APLINELOGO.png" alt="logo" />
-  
-        <div style="display: flex; gap: 20px">
+      <a href="index.html">
+        <img class="logo" src="asset/APLINELOGO.png" alt="logo"
+      /></a>
+
+      <div style="display: flex; gap: 20px; align-items: center">
         <div id="navlinks">
           <div class="navlinks-item">
-            <ul class="item-one">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li>
-                <a href="sustainability.html"
-                  >Sustainabilty <i class="fa-solid fa-chevron-down"></i
-                ></a>
+            <ul>
+              <li class="dropdown-effect"><a href="index.html">Home</a></li>
+              <li class="dropdown-effect"><a href="about.html">About</a></li>
+              <li class="dropdown dropdown-effect" id="dropDownToggle1">
+                Sustainabilty
+                <img
+                  src="./asset/chevron-down-solid.svg"
+                  id="dropdown"
+                  alt="icon"
+                />
+                <ul class="dropdown-item1">
+                  <li><a href="sustainability.html">Sustainabilty </a></li>
+                  <li><a href="hseq.html">HSEQ Programs </a></li>
+                </ul>
               </li>
-              <li>
-                <a href="#"
-                  >Production <i class="fa-solid fa-chevron-down"></i
-                ></a>
+              <li class="dropdown dropdown-effect" id="dropDownToggle2">
+                Production
+                <img
+                  src="./asset/chevron-down-solid.svg"
+                  id="dropdown"
+                  alt="icon"
+                />
+                <ul class="dropdown-item2">
+                  <li><a href="#">Production</a></li>
+                  <li><a href="#">Oil Production</a></li>
+                  <li><a href="#">Oil Refining</a></li>
+                  <li><a href="#">Exploration</a></li>
+                </ul>
               </li>
-              <li>
-                <a href="#"
-                  >Investors <i class="fa-solid fa-chevron-down"></i
-                ></a>
+              <li class="dropdown dropdown-effect" id="dropDownToggle3">
+                Investors
+                <img
+                  src="./asset/chevron-down-solid.svg"
+                  id="dropdown"
+                  alt="icon"
+                />
+                <ul class="dropdown-item3">
+                  <li><a href="#">Investors</a></li>
+                  <li><a href="#">Management</a></li>
+                  <li><a href="#">Reporting</a></li>
+                </ul>
               </li>
-              <li><a href="#">News</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li class="dropdown-effect"><a href="#">News</a></li>
+              <li class="dropdown-effect">
+                <a href="contact.html">Contact Us</a>
+              </li>
             </ul>
           </div>
-  
-  
+
+          <hr />
+
+          <div class="navlinks-item">
+            <ul class="item-two">
+              <li>
+                <a href=""
+                  ><img class="icon" src="./asset/globe-icon.svg" />Site Map</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img class="icon" src="./asset/paper-icon.svg" />Press
+                  Center</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img class="icon" src="./asset/career-icon.svg" />Career</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img class="icon" src="./asset/contact-icon.svg" />Contact</a
+                >
+              </li>
+            </ul>
+
+            <select class="lang" name="lang" id="lang">
+              <option value="Eng">Eng</option>
+              <option value="Eng">Kas</option>
+              <option value="Eng">Pyc</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="search-container">
+          <i class="fa-solid fa-magnifying-glass" id="search-open"></i>
+          <img src="./asset/search-minus-solid.svg" id="search-close" />
+
+          <input
+            class="search"
+            type="text"
+            name="search"
+            placeholder="Enter a text"
+          />
+          <button class="search-btn search">Search</button>
+        </div>
+        <div id="bar">
+          <i class="fas fa-bars" id="bar-open"></i>
+          <i class="fa-solid fa-x" id="bar-close"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="search-mobile">
+      <div class="search-container">
+        <input
+          class="search-input"
+          type="text"
+          name="search"
+          placeholder="Enter a Text"
+        />
+        <button class="btn">Search</button>
+      </div>
+    </div>
+
+    <!-- hero section -->
+    <section class="hseq-hero-section">
+      <div>CONTACT US</div>
+    </section>
+
+    <section class="contact-section">
+      <form class="form">
+        <p class="title">Get in Touch with Us</p>
+        <p class="message">
+          Write us a complaint or an enquiry, we typically reply within 24hrs
+        </p>
+        <div class="flex">
+          <label>
+            <input required="" placeholder="" type="text" class="input" />
+            <span>Firstname</span>
+          </label>
+
+          <label>
+            <input required="" placeholder="" type="text" class="input" />
+            <span>Lastname</span>
+          </label>
+        </div>
+
+        <label>
+          <input required="" placeholder="" type="email" class="input" />
+          <span>Email</span>
+        </label>
+
+        <label>
+          <textarea
+            name="comment"
+            id="comment"
+            placeholder="Write your message"
+          ></textarea>
+        </label>
+
+        <button class="submit">Submit</button>
+        <p class="signin">
+          Send us an Email instead &#xbb;<a href="mailto:test@mail.com">Mail</a>
+        </p>
+      </form>
+
+      <div class="contact-address">
+        <div class="contact-address-content">
+          <img
+            class="icon"
+            src="./asset/location-dot-solid.svg"
+            alt="location-icon"
+          />
+          <h2>Headquarters</h2>
+          <p>Kazakhstan, Astana, Prospect Shakarim Kudaiberdiuly, Dom 31</p>
+        </div>
+        <div class="contact-address-content">
+          <img
+            class="icon"
+            src="./asset/envelope-solid.svg"
+            alt="location-icon"
+          />
+          <h2>Email Us</h2>
+          <a href="mailto:testmail@mail.com">testmail@mail.com</a>
+        </div>
+        <div class="contact-address-content">
+          <img class="icon" src="./asset/phone-solid.svg" alt="location-icon" />
+          <h2>Call Us</h2>
+          <p>
+            +21 111 122 1221 <br />
+            +21 112 121 1222
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Footer Div  -->
+    <footer>
+      <section>
+        <main class="footer-main-content">
+          <div class="link-div">
+            <h1 class="link-h1">Quick link</h1>
+            <ul class="link-text">
+              <li><a class="pageurl" href="#">Company</a></li>
+              <hr />
+              <li><a class="pageurl" href="#">Investors</a></li>
+              <hr />
+              <li><a class="pageurl" href="#">Sustainable development</a></li>
+              <hr />
+              <li><a class="pageurl" href="#">Procurement</a></li>
+              <hr />
+              <li><a class="pageurl" href="#">Press-center</a></li>
+              <hr />
+              <li><a class="pageurl" href="#">Career</a></li>
+              <hr />
+              <li><a class="pageurl" href="#">Contacts</a></li>
+              <hr />
+            </ul>
+          </div>
+
+          <div class="main-footer-div">
+            <div class="footer-div1">
+              <div>
+                <h1 class="link-h1">hotline</h1>
+                <p>
+                  You can report any violations of the Code of Conduct,
+                  including corruption, discrimination, unethical behavior and
+                  other violations
+                </p>
+                <h1>8 800 080 47 47</h1>
+              </div>
+              <hr />
+            </div>
+            <div class="footer-div2">
+              <h3 class="link-h1">Hot number for WhatsApp communication</h3>
+              <p>8 771 191 88 16</p>
+            </div>
             <hr />
-  
-            <div class="navlinks-item">
-              <ul class="item-two">
-                <li>
-                  <a href=""
-                    ><img class="icon" src="./asset/globe-icon.svg" />Site Map</a
-                  >
-                </li>
-                <li>
-                  <a href=""
-                    ><img class="icon" src="./asset/paper-icon.svg" />Press
-                    Center</a
-                  >
-                </li>
-                <li>
-                  <a href=""
-                    ><img class="icon" src="./asset/career-icon.svg" />Career</a
-                  >
-                </li>
-                <li>
-                  <a href=""
-                    ><img class="icon" src="./asset/contact-icon.svg" />Contact</a
-                  >
-                </li>
-              </ul>
-  
-              <select class="lang" name="lang" id="lang">
-                <option value="Eng">Eng</option>
-                <option value="Eng">Kas</option>
-                <option value="Eng">Pyc</option>
-              </select>
+            <div class="footer-div3">
+              <h3>internet portal</h3>
+              <p>
+                <a href="www.sk-hotline.kz">www.sk-hotline.kz</a>
+              </p>
+            </div>
+            <hr />
+            <div class="footer-div4">
+              <h3>Email</h3>
+              <p>
+                <a href="mailto:mail@sk-hotline.kz">mail@sk-hotline.kz</a>
+              </p>
+            </div>
+            <hr />
+            <div class="footer-div5">
+              <h3>Submit an appeal</h3>
+              <p>
+                <a href="mailto:mail@sk-hotline.kz">Send Email</a>
+              </p>
+            </div>
+            <hr />
+          </div>
+
+          <div class="last-footer-div">
+            <div class="social-link">
+              <h1 class="link-h1">social link</h1>
+              <ol>
+                <li><i class="fab fa-facebook"></i></li>
+
+                <li><i class="fab fa-telegram"></i></li>
+
+                <li><i class="fab fa-youtube"></i></li>
+
+                <li><i class="fab fa-instagram"></i></li>
+              </ol>
             </div>
           </div>
-  
-          <div class="search-container">
-            <i class="fa-solid fa-magnifying-glass" id="search"></i>
-            <input
-              class="search"
-              type="text"
-              name="search"
-              placeholder="Enter a text"
-            />
-            <button class="search-btn search">Search</button>
-          </div>
-        <div id="bar"><i class="fas fa-bars" id="bar-open" ></i>
-          <i class="fa-solid fa-x" id="bar-close"></i></div>
-          
+        </main>
+        <div class="copywright">
+          <h1>2023 &copy; ALPINE OIL KAZAKHSTAN</h1>
         </div>
-      </header> 
-
-
-
-      <!-- 
-        the last div that is centerd will be were you will add 
-        Procurements
-Tel: +7 (7172) 78 61 80
-All procurement of goods, works and services of the company are held under the Procurement Procedure of JSC «National welfare Fund «Samruk-Kazyna» in an electronic format on the website.
-JSC NC «KazMunayGas» does not sell petroleum products.
-We also remind you that since April 1, 2019, the operation of gas stations is carried out by a new owner – «Petro-retail» LLP
-
-just telling you 
-       -->
-
-      <main>
-        <div class="contact-banner">
-            <section>
-                <div class="hero-sections">
-                <div class="hero-header-text">
-                  <h4>
-                    contact us 
-                  </h4>
-        
-                  <!-- <hr style="width: 97vw; margin-left: 1px; overflow-x: hidden;"> -->
-                </div>
-              </div>
-            </section>
-        </div>
-
-          <!-- this section has the same styleing as the lower central office just that i removed the central office there  -->
-
-        <div class="central-office">
-            <h1>central office</h1>
-            <section>
-
-                <main class="contact-card">
-                        <h4>JSC NC KazMunayGas</h4>
-                        <span>
-                            <p >Address: 010000, Astana, Republic of Kazakhstan D. Kunayev street, 8</p>
-                            <main class="tell-link">
-                                <div>
-                                    <h6>office number</h6>
-                                    <p>
-                                        Tel: + 7 (7172) 78 61 01
-                                    </p>
-                                </div>
-                                <div>
-                                    <h6>website link</h6>
-                                    <a href="https://www.kmg.kz/">www.kmg.kz</a>
-                                </div>
-                            </main>
-                        </span>
-                </main>
-
-               
-            </section>
-        </div>
-
-        <!-- from here i used the same styleing for this whole div -->
-
-        <div class=" second-central-office">
-            <section>
-
-                <main class="contact-card">
-                        <h4>Office</h4>
-                        <span>
-                            <main class="tell-link">
-                                <div>
-                                    <h6>office number</h6>
-                                    <p>
-                                        Tel: +7 (7172) 78 95 58 
-                                    </p>
-                                    <p> Tel: +7 (7172) 78 65 59</p>
-                                </div>
-                                <div>
-                                    <h6>website link</h6>
-                                    <a href="mailto:Astana@kmg.kz">Mail To : Astana@kmg.kz</a>
-                                </div>
-                            </main>
-                        </span>
-                </main>
-
-                <main class="contact-card">
-                        <h4>Office</h4>
-                        <span>
-                            <main class="tell-link">
-                                <div>
-                                    <h6>office number</h6>
-                                    <p>
-                                        Tel: +7 (7172) 78 95 58 
-                                    </p>
-                                    <p> Tel: +7 (7172) 78 65 59</p>
-                                </div>
-                                <div>
-                                    <h6>website link</h6>
-                                    <a href="mailto:Astana@kmg.kz">Mail To : Astana@kmg.kz</a>
-                                </div>
-                            </main>
-                        </span>
-                </main>
-
-                <main class="contact-card">
-                        <h4>Office</h4>
-                        <span>
-                            <main class="tell-link">
-                                <div>
-                                    <h6>office number</h6>
-                                    <p>
-                                        Tel: +7 (7172) 78 95 58 
-                                    </p>
-                                    <p> Tel: +7 (7172) 78 65 59</p>
-                                </div>
-                                <div>
-                                    <h6>website link</h6>
-                                    <a href="mailto:Astana@kmg.kz">Mail To : Astana@kmg.kz</a>
-                                </div>
-                            </main>
-                        </span>
-                </main>
-
-
-            </section>
-        </div>
-
-        <div class=" second-central-office">
-            <section>
-
-                <main class="contact-card">
-                        <h4>Office</h4>
-                        <span>
-                            <main class="tell-link">
-                                <div>
-                                    <h6>office number</h6>
-                                    <p>
-                                        Tel: +7 (7172) 78 95 58 
-                                    </p>
-                                    <p> Tel: +7 (7172) 78 65 59</p>
-                                </div>
-                                <div>
-                                    <h6>website link</h6>
-                                    <a href="mailto:Astana@kmg.kz">Mail To : Astana@kmg.kz</a>
-                                </div>
-                            </main>
-                        </span>
-                </main>
-
-                <main class="contact-card">
-                        <h4>Office</h4>
-                        <span>
-                            <main class="tell-link">
-                                <div>
-                                    <h6>office number</h6>
-                                    <p>
-                                        Tel: +7 (7172) 78 95 58 
-                                    </p>
-                                    <p> Tel: +7 (7172) 78 65 59</p>
-                                </div>
-                                <div>
-                                    <h6>website link</h6>
-                                    <a href="mailto:Astana@kmg.kz">Mail To : Astana@kmg.kz</a>
-                                </div>
-                            </main>
-                        </span>
-                </main>
-
-                <main class="contact-card">
-                        <h4>Office</h4>
-                        <span>
-                            <main class="tell-link">
-                                <div>
-                                    <h6>office number</h6>
-                                    <p>
-                                        Tel: +7 (7172) 78 95 58 
-                                    </p>
-                                    <p> Tel: +7 (7172) 78 65 59</p>
-                                </div>
-                                <div>
-                                    <h6>website link</h6>
-                                    <a href="mailto:Astana@kmg.kz">Mail To : Astana@kmg.kz</a>
-                                </div>
-                            </main>
-                        </span>
-                </main>
-
-
-            </section>
-        </div>
-
-        <div class=" second-central-office">
-            <section>
-
-                <main class="contact-card">
-                        <h4>Office</h4>
-                        <span>
-                            <main class="tell-link">
-                                <div>
-                                    <h6>office number</h6>
-                                    <p>
-                                        Tel: +7 (7172) 78 95 58 
-                                    </p>
-                                    <p> Tel: +7 (7172) 78 65 59</p>
-                                </div>
-                                <div>
-                                    <h6>website link</h6>
-                                    <a href="mailto:Astana@kmg.kz">Mail To : Astana@kmg.kz</a>
-                                </div>
-                            </main>
-                        </span>
-                </main>
-
-                <main class="contact-card">
-                        <h4>Office</h4>
-                        <span>
-                            <main class="tell-link">
-                                <div>
-                                    <h6>office number</h6>
-                                    <p>
-                                        Tel: +7 (7172) 78 95 58 
-                                    </p>
-                                    <p> Tel: +7 (7172) 78 65 59</p>
-                                </div>
-                                <div>
-                                    <h6>website link</h6>
-                                    <a href="mailto:Astana@kmg.kz">Mail To : Astana@kmg.kz</a>
-                                </div>
-                            </main>
-                        </span>
-                </main>
-
-                <main class="contact-card">
-                        <h4>Office</h4>
-                        <span>
-                            <main class="tell-link">
-                                <div>
-                                    <h6>office number</h6>
-                                    <p>
-                                        Tel: +7 (7172) 78 95 58 
-                                    </p>
-                                    <p> Tel: +7 (7172) 78 65 59</p>
-                                </div>
-                                <div>
-                                    <h6>website link</h6>
-                                    <a href="mailto:Astana@kmg.kz">Mail To : Astana@kmg.kz</a>
-                                </div>
-                            </main>
-                        </span>
-                </main>
-
-
-            </section>
-        </div>
-
-        <!-- this section has the same styleing as the upper central office just that i removed the central office there  -->
-
-        <div class="central-office">
-               <section>
-                    <main class="contact-card">
-                        <h4>Procurements</h4>
-                        <span>
-                            <p >All procurement of goods, works and services of the company are held under the Procurement Procedure of JSC «National welfare Fund «Samruk-Kazyna» in an electronic format on the website.</p>
-                            <main class="tell-link">
-                                <div>
-                                    <!-- <h6>office number</h6> -->
-                                    <p>
-                                        Tel: +7 (7172) 78 61 80
-                                    </p>
-                                </div>
-                                <!-- <div>
-                                    <h6>website link</h6>
-                                    <a href="https://www.kmg.kz/">www.kmg.kz</a>
-                                </div> -->
-                            </main>
-                            <p >JSC NC «KazMunayGas» does not sell petroleum products.
-                                We also remind you that since April 1, 2019, the operation of gas stations is carried out by a new owner – «Petro-retail» LLP</p>
-                        </span>
-                    </main>
-               </section>
-        </div>
-
-      </main>
-
-    
-
-      <footer>
-        <section>
-            <main>
-               <div class="link-div">
-                <h1>quick link</h1>
-                <ul>
-                  <li><a href="#">company</a></li>
-                  <hr>
-                  <li><a href="#">investors</a></li>
-                  <hr>
-                  <li><a href="#">sustainable development</a></li>
-                  <hr>
-                  <li><a href="#">procurement</a></li>
-                  <hr>
-                  <li><a href="#">press-center</a></li>
-                  <hr>
-                  <li><a href="#">career</a></li>
-                  <hr>
-                  <li><a href="#">contacts</a></li>
-                  <hr>
-              </ul>
-               </div>
-               <div class="main-footer-div">
-                    <div class="footer-div1">
-                        <div>
-                            <h1>hotline</h1>
-                            <p>
-                                You can report any violations of the Code of Conduct, including corruption, discrimination, unethical behavior and other violations
-                            </p>
-                            <h1>8 800 080 47 47</h1>
-                        </div>
-                        <hr>
-                    </div>
-                    <div class="footer-div2">
-                        <h3>Hot number for WhatsApp communication</h3>
-                        <p>8 771 191 88 16</p>
-                    </div>
-                    <hr>
-                    <div class="footer-div3">
-                        <h3>internet portal</h3>
-                        <p>
-                            <a href="www.sk-hotline.kz">www.sk-hotline.kz</a>
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="footer-div4">
-                        <h3>Email</h3>
-                        <p>
-                            <a href="mailto:mail@sk-hotline.kz">mail@sk-hotline.kz</a>
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="footer-div5">
-                        <h3>Submit an appeal</h3>
-                        <p>
-                            <a href="mailto:mail@sk-hotline.kz">Send Email</a>
-                        </p>
-                    </div>
-                    <hr>
-               </div>
-               
-               <div class="last-footer-div">
-                
-                  <div class="social-link">
-                    <h1>social link</h1>
-                    <ol>
-                        <li><i class="fab fa-facebook"></i></li>
-                        
-                        <li><i class="fab fa-telegram"></i></li>
-                        
-                        <li><i class="fab fa-youtube"></i></li>
-                        
-                        <li><i class="fab fa-instagram"></i></li>
-                        
-                    </ol>
-                 </div> 
-               </div>
-               
-            </main>
-            <div class="copywright">
-              <h1>2023 &copy;JSC National Company «KazMunayGas»</h1>
-           </div>
-        </section>
+      </section>
     </footer>
-
     <script src="./js/script.js"></script>
 
+    <script src="./js/jquery.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/accordion.js"></script>
+
+    <script src="./js/swiper.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/waypoints.min.js"></script>
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script src="./js/searchMobileToggle.js"></script>
+    <script src="./js/dropdown.js"></script>
 
     <script type="text/javascript">
-      $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 5,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 10000,
+        // stagePadding: 50,
+        dots: false,
+        responsive: {
+          0: {
+            items: 2,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
         },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
+      });
     </script>
-</body>
+    <script src="./js/dropdown.js"></script>
+
+    <script type="text/javascript">
+      $(".counter").counterUp({
+        delay: 10,
+        time: 2000,
+      });
+      $(".counter").addClass("animated fadeInDownBig");
+      $("h3").addClass("animated fadeIn");
+    </script>
+  </body>
 </html>
