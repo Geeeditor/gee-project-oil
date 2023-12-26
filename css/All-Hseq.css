@@ -46,7 +46,10 @@
     width: 25%;
     margin: 10px auto;
     padding: 10px;
+   
 }
+
+
 
 .first-page section .hseq-link-div
 {
@@ -67,18 +70,27 @@
 
 .first-page section .hseq-link-div a:hover 
 {
-    color: rgb(97, 11, 11);
+    color: rgb(70, 70, 7);
+    transform: scale(1.03);
+    transition: 200ms ease-in;
 }
 
 .first-page section .hseq-text-div
 {
     width: 100%;
+     border-left: solid black 1.5px ;
+     padding-left: 20px;
    
 }
 
 .first-page section .hseq-text-div h1
 {
-    font-size: 35px;
+    font-size: 25px;
+    background-color: yellow;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .first-page section .hseq-text-div blockquote 
@@ -109,6 +121,8 @@
     .first-page section .hseq-text-div
     {
         width: 95%;
+        border-left: none;
+        padding: 0;
     }
 
     .first-page section .hseq-link-div a 
@@ -152,10 +166,13 @@
         color: black;
         margin: 15px 0 15px 0 ;
         height: 60px;
-        width: 95%;
+        width: 90%;
         font-weight: 500;
         padding: 10px;
+        margin-left: 13px;
     }
+
+
 
     .first-page section .hseq-text-div h1
     {
@@ -164,7 +181,7 @@
 
     .first-page section .hseq-text-div blockquote 
     {
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-align: left;
         font-weight: 400;
     }
