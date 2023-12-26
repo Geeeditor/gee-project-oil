@@ -1,0 +1,107 @@
+.op-hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../asset/heroone.jpg);
+  /* width: 100%; */
+  min-height: 20vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 15px;
+  flex-direction: row;
+  overflow-x: hidden;
+}
+
+.op-hero-section > div {
+  color: white;
+  font-size: 150%;
+  font-weight: 500;
+  position: relative;
+}
+
+.op-hero-section > div::after {
+  display: block;
+  position: absolute;
+  content: "";
+  border-bottom: solid white 1px;
+  width: 50%;
+  padding-top: 10px;
+}
+
+.op-last-container{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    height: fit-content;
+    margin: -20px 23px 20px; 
+    gap: 20px;
+    /* flex-wrap: wrap; */
+
+}
+
+.op-first-page{
+    margin: 0 15px !important;
+}
+
+.op-flex{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid rgb(133, 129, 129) 1px;
+ background-color: rgb(254, 254, 254);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+   box-shadow: -1px 3px 4px 0px rgba(66,60,60,0.69);
+-webkit-box-shadow: -1px 3px 4px 0px rgba(66,60,60,0.69);
+-moz-box-shadow: -1px 3px 4px 0px rgba(66,60,60,0.69);
+}
+
+.op-flex:hover{
+    transform: translateY(-10px);
+    transition: 1000ms ease-in-out;
+    box-shadow: -1px 3px 4px 0px rgba(120, 114, 114, 0.59);
+-webkit-box-shadow: -1px 3px 4px 0px rgba(120, 114, 114, 0.59);
+-moz-box-shadow: -1px 3px 4px 0px rgba(120, 114, 114, 0.59);
+}
+
+.op-flex > h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.op-flex > p {
+    font-weight: 400;
+    color: rgb(87, 86, 86);
+}
+
+
+.op-flex > img{
+ width: 1.875rem;
+ height: auto;
+}
+
+@media screen and (max-width: 1150px){
+    .op-first-page{
+    margin: 0 !important;
+    overflow-x: hidden !important;
+}
+
+ .op-last-container{
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+flex-wrap: wrap;
+}
+
+
+
+.op-flex{
+    /* width: 90%; */
+   
+} 
+}
+
