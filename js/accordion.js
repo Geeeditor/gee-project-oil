@@ -1,5 +1,4 @@
 
-
 const aOpen = document.getElementById("accordion-open");
 const aClose = document.getElementById("accordion-close");
 const aContent = document.getElementById("accordion-content");
@@ -17,3 +16,5 @@ aClose.addEventListener("click", () => {
   aClose.style.display = "none";
   aContent.style.display = "none";
 });
+
+

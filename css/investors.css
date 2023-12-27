@@ -1,0 +1,90 @@
+.text-div-section{
+    background-color: white;
+    background-image: linear-gradient(77deg, rgba(241,239,239,.5) 0%, rgba(251,251,255,.4) 35%, rgba(201,201,240,.3) 65%, rgba(44,40,124,.2) 100%), url(../asset/investors.webp);
+    
+    display: flex;
+    justify-content: flex-start;
+    height: 25vh;
+    /* border: rgba(2, 2, 66, 0.1) solid 1.5px; */
+    border-radius: 10px;
+    /* background: rgb(241,239,239); */
+    margin-top: 13px;
+
+    
+   
+
+
+}
+
+.text-div-content{
+    width: fit-content;
+    clip-path: polygon(0 0, 66% 0, 100% 50%, 55% 100%, 0% 100%);
+
+      background-color: #fff;align-self: center;
+      height: 100%;
+      padding-right: 20%;
+      padding-left: 2%;
+      border: 1px black solid;
+  
+}
+
+.text-div-content > h3 {
+    margin-top: 9%;
+    margin-bottom: 12px ;
+    font-weight: 100px !important;
+    font-size: 1.2rem;
+}
+
+.investors-last-section{
+    margin: 10px 10px;
+}
+.investors-last-section > h3{
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+
+}
+
+.investors-last-section > p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.accordion{
+    width: 98%;
+    margin-top: 10px;
+    /* margin: auto; */
+}
+
+.invstor-button{
+    margin-top: -20px;
+}
+
+.accordion-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.accordion-content p {
+  margin: 0;
+  padding: 10px;
+}
+
+
+

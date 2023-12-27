@@ -285,7 +285,7 @@ header {
 }
 
 .cssbuttons-io-button {
-  background: #a370f0;
+  background: var(--bs-link-color)  ;
   color: white;
   font-family: inherit;
   padding: 0.35em;
@@ -1318,7 +1318,9 @@ display: none;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
+.border-remove{
+    border-left: none !important;
+  }
 @media (max-width: 991px) {
   .col-md-4 {
     border-right: 0px dashed black;
@@ -1330,6 +1332,9 @@ display: none;
   .col-md-4:last-child {
     border-bottom: 0px dashed black;
   }
+
+  
+
 
   .under-img-text {
     display: flex;
@@ -1363,6 +1368,10 @@ display: none;
   #bar {
     display: block;
     cursor: pointer;
+  }
+
+  .border-remove, .border-removeTwo{
+    border-left: none !important;
   }
 
   #navlinks {
