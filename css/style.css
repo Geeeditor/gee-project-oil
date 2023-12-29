@@ -114,7 +114,7 @@ header {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px rgb(65, 65, 65); 
   border-radius: 10px;
 }
  
@@ -126,7 +126,7 @@ header {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #040b4e; 
+  background: var(--bs-link-color); 
   
 }
 
@@ -539,7 +539,7 @@ hr {
   font-size: 0.9375rem;
   font-weight: 500;
   color: var(--bs-body-bg);
-  background-color: var(--bs-cyan);
+  background-color: var(--bs-link-color);
   border: none;
   border-radius: 0.3125rem;
 }
